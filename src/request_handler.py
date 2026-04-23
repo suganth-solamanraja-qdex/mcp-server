@@ -1,9 +1,3 @@
-"""Async HTTP client for the Leave Management REST API.
-
-Holds the JWT obtained from ``/auth/login`` and attaches it as
-``Authorization: Bearer <token>`` on subsequent authenticated calls.
-"""
-
 from __future__ import annotations
 
 from typing import Any
